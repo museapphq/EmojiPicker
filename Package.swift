@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "EmojiPicker",
+    defaultLocalization: "en",
     platforms: [
         // Add support for all platforms starting from a specific version.
         .macOS(.v10_15),
